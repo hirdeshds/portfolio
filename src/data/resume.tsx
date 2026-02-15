@@ -21,7 +21,7 @@ export const DATA = {
   description:
     "B.Tech IT Student | An Aspiring Data Engineer | AWS Certified | Open Source Contributor",
   summary:
-    "I am a B.Tech Information Technology student at KIET Group of Institutions (2024–2028) passionate about Artificial Intelligence, Machine Learning, and building real-world intelligent systems. I have developed ML-based projects including medical image classification (AI 4 Alzheimer’s), exoplanet prediction (Exolumin), and Customer Churn Prediction. I deploy ML models using FastAPI and build production-ready backend systems.",
+    "I am a B.Tech Information Technology student at KIET Group of Institutions (2024–2028) passionate about Artificial Intelligence, Machine Learning, and building real-world intelligent systems.",
   avatarUrl: "/me.png",
   skills: [
     // Languages
@@ -68,7 +68,7 @@ export const DATA = {
   ],
   navbar: [
     { href: "/", icon: HomeIcon, label: "Home" },
-    // { href: "/blog", icon: NotebookIcon, label: "Blog" },
+    { href: "/resume", icon: Icons.resume, label: "Resume" }
   ],
   contact: {
     email: "Hirdeshhkumar2005@gmail.com",
