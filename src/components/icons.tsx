@@ -1,6 +1,5 @@
 import { GlobeIcon, MailIcon, FileTextIcon } from "lucide-react";
-import Image from "next/image"
-import { IconProps } from "./types"
+
 export type IconProps = React.HTMLAttributes<SVGElement>;
 
 export const Icons = {
