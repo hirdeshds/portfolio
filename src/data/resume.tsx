@@ -68,7 +68,7 @@ export const DATA = {
   ],
   navbar: [
     { href: "/", icon: HomeIcon, label: "Home" },
-    { href: "/resume", icon: Icons.resume, label: "Resume" }
+    { href: "/resume", icon: Icons.resume, label: "Resume" },
     {href: "/codolio", icon: NotebookIcon, label: "Codolio"}
   ],
   contact: {
