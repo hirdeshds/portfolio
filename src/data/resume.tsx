@@ -1,34 +1,75 @@
+import { Icons } from "@/components/icons";
+import { HomeIcon, NotebookIcon } from "lucide-react";
+import { ReactLight } from "@/components/ui/svgs/reactLight";
+import { NextjsIconDark } from "@/components/ui/svgs/nextjsIconDark";
+import { Typescript } from "@/components/ui/svgs/typescript";
+import { Nodejs } from "@/components/ui/svgs/nodejs";
+import { Python } from "@/components/ui/svgs/python";
+import { Golang } from "@/components/ui/svgs/golang";
+import { Postgresql } from "@/components/ui/svgs/postgresql";
+import { Docker } from "@/components/ui/svgs/docker";
+import { Kubernetes } from "@/components/ui/svgs/kubernetes";
+import { Java } from "@/components/ui/svgs/java";
+import { Csharp } from "@/components/ui/svgs/csharp";
+
 export const DATA = {
   name: "Hirdesh",
   initials: "HK",
   url: "https://github.com/Hirdeshds",
   location: "Ghaziabad, India",
-  locationLink: "https://www.google.com/maps/place/Ghaziabad",
+  locationLink: "https://www.google.com/maps/place/Ghaziabad,+Uttar+Pradesh,+India",
   description:
-    "B.Tech IT Student | AI & ML Developer | AWS Certified | Open Source Contributor",
+    "B.Tech IT Student | An Aspiring Data Engineer | AWS Certified | Open Source Contributor",
   summary:
-    "I am a B.Tech Information Technology student at KIET Group of Institutions (2024–2028) passionate about Artificial Intelligence, Machine Learning, and building real-world intelligent systems. I have developed multiple ML-based projects including medical image classification, exoplanet prediction systems, and customer churn analysis. I enjoy combining AI with scalable backend systems using FastAPI and deploying production-ready applications.",
-
+    "I am a B.Tech Information Technology student at KIET Group of Institutions (2024–2028) passionate about Artificial Intelligence, Machine Learning, and building real-world intelligent systems. I have developed ML-based projects including medical image classification (AI 4 Alzheimer’s), exoplanet prediction (Exolumin), and Customer Churn Prediction. I deploy ML models using FastAPI and build production-ready backend systems.",
   avatarUrl: "/me.png",
-
   skills: [
-    { name: "Python", icon: Python },
+    // Languages
     { name: "Java", icon: Java },
-    { name: "JavaScript", icon: Nodejs },
+    { name: "Python", icon: Python },
+    // { name: "JavaScript" },
     { name: "TypeScript", icon: Typescript },
+    { name: "C", icon: Csharp },
+    // Frameworks
     { name: "React", icon: ReactLight },
     { name: "Next.js", icon: NextjsIconDark },
-    { name: "FastAPI", icon: Python },
-    { name: "TensorFlow", icon: Python },
+    // { name: "FastAPI" },
+    // { name: "TensorFlow" },
+    // { name: "Keras" },
+    // { name: "Scikit-learn" },
+    // { name: "Pandas" },
+    // { name: "NumPy" },
+    // { name: "NLP" },
+    // { name: "NLTK" },
+    // { name: "SpaCy" },
+    // DevOps & Tools
     { name: "Docker", icon: Docker },
+    // { name: "FastAPI" },
+    // { name: "Uvicorn" },
+    // { name: "Joblib" },
+    // { name: "Jupyter Notebook" },
+    // { name: "Google Colab" },
+    // { name: "Git" },
+    { name: "GitHub", icon: Icons.github },
+    // { name: "Postman" },
+    // { name: "VSCode" },
+    // { name: "Kaggle" },
+    // Databases/Cloud
     { name: "PostgreSQL", icon: Postgresql },
+    // { name: "SQLite" },
+    // { name: "MySQL" },
+    // { name: "MongoDB" },
+    // { name: "Firebase" },
+    // { name: "AWS" },
+    // { name: "Netlify" },
+    // { name: "Vercel" },
+    // { name: "Heroku" },
+    // { name: "Render" },
   ],
-
   navbar: [
     { href: "/", icon: HomeIcon, label: "Home" },
     { href: "/blog", icon: NotebookIcon, label: "Blog" },
   ],
-
   contact: {
     email: "Hirdeshhkumar2005@gmail.com",
     tel: "",
@@ -45,12 +86,7 @@ export const DATA = {
         icon: Icons.linkedin,
         navbar: true,
       },
-      LeetCode: {
-        name: "LeetCode",
-        url: "https://leetcode.com/hirdeshds",
-        icon: Icons.globe,
-        navbar: true,
-      },
+      // LeetCode removed: icon not available
       email: {
         name: "Send Email",
         url: "mailto:Hirdeshhkumar2005@gmail.com",
@@ -59,134 +95,109 @@ export const DATA = {
       },
     },
   },
-
   work: [
     {
       company: "StandOut Platform (SWOC)",
-      href: "https://github.com/Anushka-Pote/StandOut-Platform",
-      badges: ["Open Source"],
-      location: "Virtual",
-      title: "Frontend Developer",
-      logoUrl: "/standout.png",
+      href: "https://standoutplatform.com/",
+      badges: [],
+      location: "Remote",
+      title: "Open Source Contributor",
+      logoUrl: "",
       start: "Jan 2025",
       end: "Mar 2025",
       description:
-        "Built and contributed to a React-based platform with reusable components and responsive UI. Implemented modern frontend practices including component-based architecture and state management.",
+        "Open Source Contributor (SWOC) – StandOut Platform (React)"
     },
     {
-      company: "100 Days – 100 Web Projects",
-      href: "https://github.com/dhairyagothi/100_days_100_web_project",
-      badges: ["UI Revamp"],
-      location: "Virtual",
+      company: "100 Days 100 Web Projects",
+      href: "",
+      badges: [],
+      location: "Remote",
       title: "Frontend Contributor",
-      logoUrl: "/2048.png",
-      start: "2025",
-      end: "2025",
+      logoUrl: "",
+      start: "",
+      end: "",
       description:
-        "Redesigned and improved the UI of the 2048 game. Enhanced layout, styling, and responsiveness for a better gameplay experience.",
+        "2048 UI Revamp (Frontend Contribution)"
     },
   ],
-
   education: [
     {
       school: "KIET Group of Institutions",
-      href: "https://kiet.edu",
-      degree: "Bachelor of Technology in Information Technology",
-      logoUrl: "/kiet.png",
+      href: "https://www.kiet.edu/",
+      degree: "B.Tech in Information Technology",
+      logoUrl: "",
       start: "2024",
       end: "2028",
     },
   ],
-
   projects: [
     {
       title: "AI 4 Alzheimer’s",
-      href: "https://github.com/hirdeshds/AI-4-Alzheimers",
-      dates: "Jan 2026 – Present",
+      href: "",
+      dates: "",
       active: true,
       description:
-        "Developed a CNN model to classify MRI brain scans into 4 Alzheimer’s stages. Applied preprocessing and augmentation to improve performance. Deployed using FastAPI with SQLite for real-time predictions.",
+        "Medical image classification using TensorFlow, CNN, FastAPI, SQLite.",
       technologies: [
-        "Python",
         "TensorFlow",
-        "Keras",
         "CNN",
         "FastAPI",
         "SQLite",
       ],
-      links: [
-        {
-          type: "Source",
-          href: "https://github.com/hirdeshds/AI-4-Alzheimers",
-          icon: <Icons.github className="size-3" />,
-        },
-      ],
+      links: [],
+      image: "",
+      video: "",
     },
     {
       title: "Exolumin",
-      href: "https://github.com/hirdeshds/Exolumin",
-      dates: "Oct 2025",
+      href: "",
+      dates: "",
       active: true,
       description:
-        "Built a Logistic Regression model to classify exoplanet candidates using NASA datasets (75.9% accuracy). Performed EDA, feature engineering, and deployed via FastAPI.",
+        "Exoplanet prediction using Scikit-learn, Logistic Regression, FastAPI.",
       technologies: [
-        "Python",
         "Scikit-learn",
-        "Pandas",
-        "NumPy",
+        "Logistic Regression",
         "FastAPI",
-        "Matplotlib",
       ],
-      links: [
-        {
-          type: "Source",
-          href: "https://github.com/hirdeshds/Exolumin",
-          icon: <Icons.github className="size-3" />,
-        },
-      ],
+      links: [],
+      image: "",
+      video: "",
     },
     {
       title: "Customer Churn Prediction",
-      href: "https://github.com/hirdeshds/Customer-Churn-Prediction",
-      dates: "Sep 2025",
+      href: "",
+      dates: "",
       active: true,
       description:
-        "Built an end-to-end churn prediction system using multiple ML models. Applied EDA and feature engineering to improve performance and interpretability.",
+        "Customer Churn Prediction using Scikit-learn, EDA, ML comparison.",
       technologies: [
-        "Python",
-        "Pandas",
-        "NumPy",
         "Scikit-learn",
-        "Machine Learning",
+        "EDA",
+        "ML comparison",
       ],
-      links: [
-        {
-          type: "Source",
-          href: "https://github.com/hirdeshds/Customer-Churn-Prediction",
-          icon: <Icons.github className="size-3" />,
-        },
-      ],
+      links: [],
+      image: "",
+      video: "",
     },
   ],
-
   certifications: [
     {
-      title: "AWS Certified AI Practitioner",
+      name: "AWS Certified AI Practitioner",
       issuer: "Amazon Web Services",
       date: "Dec 2025",
-      link: "https://www.credly.com/badges/387ece25-23ff-4479-9602-d9468add304c",
     },
     {
-      title: "AWS Certified Cloud Practitioner",
+      name: "AWS Certified Cloud Practitioner",
       issuer: "Amazon Web Services",
       date: "Dec 2025",
-      link: "https://www.credly.com/badges/4c5bd360-1bdd-4d93-b875-b85ae06c1d74",
     },
     {
-      title: "Career Essentials in Data Analysis",
+      name: "Microsoft Career Essentials in Data Analysis",
       issuer: "Microsoft",
       date: "July 2025",
-      link: "https://www.linkedin.com/learning/certificates/8a354a39e4a9e3c31bd6978112ac9514e89c6d430c76f5d12c1a3a1fb11fe44e",
     },
   ],
+  hackathons: [],
 } as const;
