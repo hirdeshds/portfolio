@@ -36,7 +36,7 @@ export default function ProjectsSection() {
                         <BlurFade
                             key={project.title}
                             delay={BLUR_FADE_DELAY * 12 + id * 0.05}
-                            className="h-full"
+                            className="size-short h-full"
                         >
                             <ProjectCard
                                 href={project.href}
@@ -45,9 +45,9 @@ export default function ProjectsSection() {
                                 description={project.description}
                                 dates={project.dates}
                                 tags={project.technologies}
-                                image={project.image}
-                                video={project.video}
-                                links={project.links}
+                                // image={project.image}
+                                // video={project.video}
+                                // links={project.links}
                             />
                         </BlurFade>
                     ))}

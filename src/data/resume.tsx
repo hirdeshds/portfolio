@@ -68,7 +68,7 @@ export const DATA = {
   ],
   navbar: [
     { href: "/", icon: HomeIcon, label: "Home" },
-    { href: "/blog", icon: NotebookIcon, label: "Blog" },
+    // { href: "/blog", icon: NotebookIcon, label: "Blog" },
   ],
   contact: {
     email: "Hirdeshhkumar2005@gmail.com",
@@ -97,28 +97,16 @@ export const DATA = {
   },
   work: [
     {
-      company: "StandOut Platform (SWOC)",
-      href: "https://standoutplatform.com/",
-      badges: [],
-      location: "Remote",
-      title: "Open Source Contributor",
-      logoUrl: "",
-      start: "Jan 2025",
-      end: "Mar 2025",
-      description:
-        "Open Source Contributor (SWOC) – StandOut Platform (React)"
-    },
-    {
-      company: "100 Days 100 Web Projects",
+      company: "Social Winter of Code",
       href: "",
       badges: [],
       location: "Remote",
-      title: "Frontend Contributor",
-      logoUrl: "",
-      start: "",
-      end: "",
+      title: "Open Source Contributor",
+      logoUrl: "/swoc.png",
+      start: "Jan 2025",
+      end: "Mar 2025",
       description:
-        "2048 UI Revamp (Frontend Contribution)"
+        "Open Source Contributor (SWOC)"
     },
   ],
   education: [
@@ -126,7 +114,7 @@ export const DATA = {
       school: "KIET Group of Institutions",
       href: "https://www.kiet.edu/",
       degree: "B.Tech in Information Technology",
-      logoUrl: "",
+      logoUrl: "/kiet.jpg",
       start: "2024",
       end: "2028",
     },
@@ -136,7 +124,7 @@ export const DATA = {
       title: "AI 4 Alzheimer’s",
       href: "",
       dates: "",
-      active: true,
+      // active: true,
       description:
         "Medical image classification using TensorFlow, CNN, FastAPI, SQLite.",
       technologies: [
@@ -145,9 +133,9 @@ export const DATA = {
         "FastAPI",
         "SQLite",
       ],
-      links: [],
-      image: "",
-      video: "",
+      // links: [],
+      // image: "",
+      // video: "",
     },
     {
       title: "Exolumin",
