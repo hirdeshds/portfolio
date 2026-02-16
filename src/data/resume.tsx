@@ -38,8 +38,7 @@ export const DATA = {
     { name: "Python", icon: Python },
     { name: "JavaScript", icon: Icons.javascript },
     { name: "TypeScript", icon: Typescript },
-    { name: "C#", icon: Csharp },
-    { name: "Go", icon: Golang },
+
     // Frameworks
     { name: "React", icon: ReactLight },
     { name: "Next.js", icon: NextjsIconDark },
@@ -55,6 +54,7 @@ export const DATA = {
     { name: "Hugging Face", icon: Icons.huggingface },
     { name: "PostgreSQL", icon: Postgresql },
   ],
+
   navbar: [
     { href: "/", icon: HomeIcon, label: "Home" },
     { href: "/resume", icon: Icons.resume, label: "Resume" },
@@ -111,18 +111,21 @@ export const DATA = {
     {
       title: "AI 4 Alzheimer’s",
       href: "https://github.com/hirdeshds/AI-4-Alzheimers",
+      dates:"",
       description: "Medical image classification using TensorFlow, CNN, FastAPI, SQLite.",
       technologies: ["TensorFlow", "CNN", "FastAPI", "SQLite"],
     },
     {
       title: "Exolumin",
       href: "https://github.com/hirdeshds/Exolumin",
+      dates:"",
       description: "Exoplanet prediction using Scikit-learn, Logistic Regression, FastAPI.",
       technologies: ["Scikit-learn", "Logistic Regression", "FastAPI"],
     },
     {
       title: "Customer Churn Prediction",
       href: "https://github.com/hirdeshds/Customer-Churn-Prediction",
+      dates:"",
       description: "Customer Churn Prediction using Scikit-learn, EDA, ML comparison.",
       technologies: ["Scikit-learn", "EDA", "ML comparison"],
     },
