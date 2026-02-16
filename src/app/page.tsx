@@ -10,6 +10,7 @@ import ContactSection from "@/components/section/contact-section";
 import ProjectsSection from "@/components/section/projects-section";
 import WorkSection from "@/components/section/work-section";
 import { ArrowUpRight } from "lucide-react";
+import certificatesection from "@/components/section/certificates-section";
 
 const BLUR_FADE_DELAY = 0.04;
 
@@ -124,6 +125,23 @@ export default function Page() {
                 <div className="border bg-background border-border ring-2 ring-border/20 rounded-xl h-8 w-fit px-4 flex items-center gap-2">
                   {skill.icon && <skill.icon className="size-4 rounded overflow-hidden object-contain" />}
                   <span className="text-foreground text-sm font-medium">{skill.name}</span>
+                </div>
+              </BlurFade>
+            ))}
+          </div>
+        </div>
+      </section>
+      <section id="certificates">
+        <div className="flex min-h-0 flex-col gap-y-4">
+          <BlurFade delay={BLUR_FADE_DELAY * 9}>
+            <h2 className="text-xl font-bold">Certificates</h2>
+          </BlurFade>
+          <div className="flex flex-wrap gap-2">
+            {DATA.certifications.map((cert, id) => (
+              <BlurFade key={cert.name} delay={BLUR_FADE_DELAY * 10 + id * 0.05}>
+                <div className="border bg-background border-border ring-2 ring-border/20 rounded-xl h-8 w-fit px-4 flex items-center gap-2">
+                  {cert.icon && <cert.icon className="size-4 rounded overflow-hidden object-contain" />}
+                  <span className="text-foreground text-sm font-medium">{cert.name}</span>
                 </div>
               </BlurFade>
             ))}

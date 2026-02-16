@@ -27,16 +27,16 @@ export const DATA = {
     // Languages
     { name: "Java", icon: Java },
     { name: "Python", icon: Python },
-    // { name: "JavaScript" },
+    { name: "JavaScript", icon: Icons.javascript },
     { name: "TypeScript", icon: Typescript },
     { name: "C", icon: Csharp },
     // Frameworks
     { name: "React", icon: ReactLight },
     { name: "Next.js", icon: NextjsIconDark },
-    // { name: "FastAPI" },
-    // { name: "TensorFlow" },
+    { name: "FastAPI", icon: Icons.fastapi },
+    { name: "TensorFlow", icon: Icons.tensorflow },
     // { name: "Keras" },
-    // { name: "Scikit-learn" },
+    { name: "Scikit-learn", icon: Icons.scikitlearn },
     // { name: "Pandas" },
     // { name: "NumPy" },
     // { name: "NLP" },
@@ -62,7 +62,8 @@ export const DATA = {
     // { name: "Firebase" },
     // { name: "AWS" },
     // { name: "Netlify" },
-    // { name: "Vercel" },
+    { name: "Vercel", icon: Icons.vercel },
+    { name: "Hugging Face", icon: Icons.huggingface },
     // { name: "Heroku" },
     // { name: "Render" },
   ],
@@ -123,7 +124,7 @@ export const DATA = {
   projects: [
     {
       title: "AI 4 Alzheimer’s",
-      href: "",
+      href: "https://github.com/hirdeshds/AI-4-Alzheimers",
       dates: "",
       // active: true,
       description:
@@ -140,7 +141,7 @@ export const DATA = {
     },
     {
       title: "Exolumin",
-      href: "",
+      href: "https://github.com/hirdeshds/Exolumin",
       dates: "",
       active: true,
       description:
@@ -156,7 +157,7 @@ export const DATA = {
     },
     {
       title: "Customer Churn Prediction",
-      href: "",
+      href: "https://github.com/hirdeshds/Customer-Churn-Prediction",
       dates: "",
       active: true,
       description:

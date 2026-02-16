@@ -16,6 +16,118 @@ export const Icons = {
       />
     </svg>
   ),
+javascript: (props: IconProps) => (
+  <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" {...props}>
+    {/* Yellow background */}
+    <rect width="24" height="24" fill="#F7DF1E" />
+
+    {/* JS letters */}
+    <path
+      d="M7.8 17.6c.4.7.8 1.3 1.7 1.3.8 0 1.3-.3 1.3-1.5v-8h2.4v8c0 2.4-1.4 3.5-3.4 3.5-1.8 0-2.9-.9-3.5-2l1.5-1.3z"
+      fill="#000000"
+    />
+    <path
+      d="M14.6 17.4c.5.9 1.2 1.6 2.4 1.6 1 0 1.7-.5 1.7-1.3 0-.9-.7-1.2-1.9-1.7l-.6-.3c-1.7-.7-2.8-1.6-2.8-3.4 0-1.7 1.3-3 3.4-3 1.5 0 2.6.5 3.4 1.9l-1.9 1.2c-.4-.7-.9-1-1.5-1-.7 0-1.1.4-1.1 1 0 .7.4 1 1.4 1.4l.6.3c2 .8 3.1 1.7 3.1 3.6 0 2.1-1.6 3.2-3.8 3.2-2.1 0-3.5-1-4.1-2.3l1.8-1.2z"
+      fill="#000000"
+    />
+  </svg>
+),
+fastapi: (props: IconProps) => (
+  <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" {...props}>
+    {/* FastAPI Teal Background */}
+    <rect width="24" height="24" fill="#009688" />
+
+    {/* FastAPI Symbol (Simplified Lightning Style) */}
+    <path
+      d="M13 3L6 14h5l-1 7 8-12h-5l1-6z"
+      fill="#ffffff"
+    />
+  </svg>
+),
+tensorflow: (props: IconProps) => (
+  <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" {...props}>
+    {/* Orange Background */}
+    <rect width="24" height="24" fill="#FF6F00" />
+
+    {/* TensorFlow T Shape */}
+    <path
+      d="M4 4h16v4h-6v12h-4V8H4z"
+      fill="#ffffff"
+    />
+  </svg>
+),
+vercel: (props: IconProps) => (
+  <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" {...props}>
+    <rect width="24" height="24" fill="#000000" />
+    <path
+      d="M12 4l8 16H4z"
+      fill="#ffffff"
+    />
+  </svg>
+),
+aws: (props: IconProps) => (
+  <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" {...props}>
+    <rect width="24" height="24" fill="#232F3E" />
+    <text
+      x="12"
+      y="13"
+      textAnchor="middle"
+      fontSize="6"
+      fontWeight="bold"
+      fill="#FF9900"
+      fontFamily="Arial, sans-serif"
+    >
+      aws
+    </text>
+    <path
+      d="M7 16c3 2 7 2 10 0"
+      stroke="#FF9900"
+      strokeWidth="1.5"
+      fill="none"
+      strokeLinecap="round"
+    />
+  </svg>
+),
+
+huggingface: (props: IconProps) => (
+  <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" {...props}>
+    <rect width="24" height="24" fill="#FFD21E" />
+    <circle cx="9" cy="10" r="1.5" fill="#000000" />
+    <circle cx="15" cy="10" r="1.5" fill="#000000" />
+    <path
+      d="M8 14c1.5 2 6.5 2 8 0"
+      stroke="#000000"
+      strokeWidth="1.5"
+      fill="none"
+      strokeLinecap="round"
+    />
+  </svg>
+),
+
+scikitlearn: (props: IconProps) => (
+  <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" {...props}>
+    {/* White Background */}
+    <rect width="24" height="24" fill="#ffffff" />
+
+    {/* Blue Curve */}
+    <path
+      d="M5 15c3-6 11-6 14 0"
+      stroke="#3499CD"
+      strokeWidth="2"
+      fill="none"
+    />
+
+    {/* Orange Curve */}
+    <path
+      d="M5 9c3 6 11 6 14 0"
+      stroke="#F7931E"
+      strokeWidth="2"
+      fill="none"
+    />
+  </svg>
+),
+
+
 
   x: (props: IconProps) => (
     <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" {...props}>
