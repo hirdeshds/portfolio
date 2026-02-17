@@ -30,7 +30,7 @@ export default function ProjectsSection() {
                         </p>
                     </div>
                 </div>
-                <div className="grid grid-cols-1 gap-3 sm:grid-cols-2 max-w-[800px] mx-auto auto-rows-fr">
+                <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 max-w-225 mx-auto auto-rows-fr bg-transparent">
                     {DATA.projects.map((project, id) => (
                         <BlurFade
                             key={project.title}

@@ -45,17 +45,21 @@ fastapi: (props: IconProps) => (
   </svg>
 ),
 tensorflow: (props: IconProps) => (
-  <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" {...props}>
-    {/* Orange Background */}
-    <rect width="24" height="24" fill="#FF6F00" />
+  <svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg" {...props}>
+    {/* Top horizontal bar */}
+    <polygon points="10,30 50,10 90,30 50,50" fill="#F6BD3A" />
+    <polygon points="50,50 90,30 90,45 50,65" fill="#F28C20" />
+    <polygon points="10,30 50,50 50,65 10,45" fill="#E65A2A" />
 
-    {/* TensorFlow T Shape */}
-    <path
-      d="M4 4h16v4h-6v12h-4V8H4z"
-      fill="#ffffff"
-    />
+    {/* Vertical stem */}
+    <polygon points="35,50 50,65 50,95 35,80" fill="#E65A2A" />
+    <polygon points="50,65 70,55 70,85 50,95" fill="#F28C20" />
+    <polygon points="35,50 55,40 70,55 50,65" fill="#F6BD3A" />
   </svg>
 ),
+
+
+
 vercel: (props: IconProps) => (
   <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" {...props}>
     <rect width="24" height="24" fill="#000000" />
@@ -65,6 +69,31 @@ vercel: (props: IconProps) => (
     />
   </svg>
 ),
+nextjs: (props: IconProps) => (
+  <svg viewBox="0 0 120 30" xmlns="http://www.w3.org/2000/svg" {...props}>
+    <rect width="120" height="30" fill="#000" />
+    <text
+      x="50%"
+      y="50%"
+      textAnchor="middle"
+      dominantBaseline="middle"
+      fontFamily="Inter, Arial, sans-serif"
+      fontSize="12"
+      fill="#fff"
+    >
+      Next.js
+    </text>
+  </svg>
+),
+microsoft: (props: IconProps) => (
+  <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" {...props}>
+    <rect width="11" height="11" fill="#F25022" />
+    <rect x="13" width="11" height="11" fill="#7FBA00" />
+    <rect y="13" width="11" height="11" fill="#00A4EF" />
+    <rect x="13" y="13" width="11" height="11" fill="#FFB900" />
+  </svg>
+),
+
 aws: (props: IconProps) => (
   <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" {...props}>
     <rect width="24" height="24" fill="#232F3E" />
