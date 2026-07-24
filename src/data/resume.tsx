@@ -173,6 +173,46 @@ export const DATA = {
       technologies: ["FastAPI", "Python", "MongoDB", "Scikit-Learn", "SHAP"],
     },
     {
+      title: "HireMind AI",
+      href: "https://github.com/hirdeshds/HireMind-AI",
+      dates: "2026",
+      description:
+        "Intelligent Recruitment Platform — AI-Powered Candidate Screening & Talent Acquisition tool using LLMs, Next.js, and multi-agent workflows.",
+      technologies: ["TypeScript", "Next.js", "Python", "Docker", "LLM", "Workflow"],
+    },
+    {
+      title: "AI Financial Chatbot",
+      href: "https://github.com/hirdeshds/AI-Financial-Chatbot",
+      dates: "2026",
+      description:
+        "Enterprise-Grade Financial Advisory & Insights Engine designed to provide real-time personal finance advice, portfolio tracking, and interactive market analysis.",
+      technologies: ["TypeScript", "FastAPI", "React", "Python", "Chatbot"],
+    },
+    {
+      title: "Shiksha AI",
+      href: "https://github.com/hirdeshds/shiksha-ai",
+      dates: "2026",
+      description:
+        "Voice-Powered AI Teaching Assistant for Smart Classrooms leveraging speech-to-text, real-time educational context, and Cohere AI.",
+      technologies: ["Next.js", "FastAPI", "Cohere AI", "JavaScript", "Python", "Docker"],
+    },
+    {
+      title: "MedAI Shield",
+      href: "https://github.com/hirdeshds/MedAI-Shield",
+      dates: "2026",
+      description:
+        "Enterprise Healthcare Data Compliance Console featuring patient record classification, compliance checks, and secure AWS cloud deployment.",
+      technologies: ["React", "TypeScript", "AWS", "Healthcare Compliance"],
+    },
+    {
+      title: "CrisisLink AI",
+      href: "https://github.com/hirdeshds/CrisisLink-AI",
+      dates: "2026",
+      description:
+        "Emergency response platform that uses a Flutter app and FastAPI backend to collect SOS reports, cluster incidents, prioritize urgency, and support dispatch decisions with AI.",
+      technologies: ["Flutter", "FastAPI", "Dart", "Python", "Crisis Response"],
+    },
+    {
       title: "AI 4 Alzheimer’s",
       href: "https://github.com/hirdeshds/AI-4-Alzheimers",
       dates: "2025",
