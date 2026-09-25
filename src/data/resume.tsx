@@ -134,6 +134,17 @@ export const DATA = {
   },
   work: [
     {
+      company: "Paygent",
+      href: "",
+      badges: ["LangGraph", "AI Agents"],
+      location: "Singapore · Remote",
+      title: "AI Engineer Intern",
+      logoUrl: "https://media.licdn.com/dms/image/v2/D560BAQHZGM5YIxZo-w/company-logo_100_100/B56Z2Z3gO_HkAQ-/0/1776402957681/withpaygentai_logo?e=1792022400&v=beta&t=8hCFA_eW7PPmVVc6k3stQowfM_QLm6W7l2ikdbETy5U",
+      start: "Sep 2026",
+      end: "Present",
+      description: "AI Engineer Intern working on LangGraph and AI agent workflows.",
+    },
+    {
       company: "Social Winter of Code",
       href: "",
       badges: [],
